@@ -1,5 +1,10 @@
 # Pomodoro-react
 
+![pomodore_controls](https://user-images.githubusercontent.com/84904766/177977965-64d51dc8-610b-4e76-b6ed-acc2ba7789ae.gif)
+
+# Instrucciones de Uso React App: 
+
+<details>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -67,11 +72,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</details>
+
+# About 💡  
+
+It's a pomodore version with theme changing made to practice React!
+
+# Summary: 🚀 
+- Only frontend used!
+
 
 ### Screenshots: 
 Working * artefacts on progress bar is not appearing on live version, this is an issue due to the recording software * 
-![pomodore_controls](https://user-images.githubusercontent.com/84904766/177977965-64d51dc8-610b-4e76-b6ed-acc2ba7789ae.gif)
+
+
+![pomodore_theme](https://user-images.githubusercontent.com/84904766/177978375-0f8efc65-9dfa-4f67-b756-e3f7f76952a1.gif)
+
 
 
 
