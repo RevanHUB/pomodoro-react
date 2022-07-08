@@ -1,0 +1,66 @@
+:root {
+    --active: #F9716D;
+}
+
+header {
+    backdrop-filter:blur(8px);
+    width:clamp(35vw, auto, 50vw);
+    position:fixed;
+    border-radius:50px;
+    top:0;
+    padding:10px;
+    margin-top:10px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+header h1 {
+    margin:0px 0px 0px 10px;
+    display:none;
+}
+  
+header .pomodoreControls {
+    background:#151932;
+    border-radius:50px;
+}
+header button {
+    background:transparent;
+    border-radius:25px;
+    padding:15px;
+    border:0px;
+    cursor:pointer;
+    font-size:.9rem;
+    margin:4px;
+    font-weight:bolder;
+    text-transform:lowercase;
+    color:#484C65;
+    transition:  .4s;
+}
+.active {
+    background:var(--active);
+    border-radius:25px;
+    color:#1E2140;
+}
+@media screen and (min-width: 1000px) and (max-width: 1564px) {
+s
+    header button {
+        font-size: 1rem ;
+    }
+  }
+  @media screen and (min-width: 200px) and (max-width: 999px) {
+    header {
+      width:100vw;
+      height:200px;
+      flex-direction:column;
+      box-shadow:none;
+      backdrop-filter: none;
+    }
+    header .pomodoreControls {
+        box-shadow:none;
+    }
+    header button {
+        font-size: .8rem ;
+    }
+  }

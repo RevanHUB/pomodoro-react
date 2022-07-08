@@ -1,0 +1,85 @@
+:root {
+  --background: #1E2140;
+}
+
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+  }
+
+
+  ::-webkit-scrollbar{
+    display:none;
+  }
+  body {
+    overflow-x:hidden;
+    overflow-y:scroll;
+  }
+  .App {
+    text-align: center;
+    width:100vw;
+    min-height:auto;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .scrollable {
+    width:45vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    min-height:98vh;
+    margin:10px;
+    
+  }
+  .scrollable h1 {
+    font-size:clamp(50px, 100px, 150px);
+  }
+  .scrollable .pomodore {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:clamp(200px, 30vw, 50vw);
+    background:var(--background);
+    border-radius:50%;
+    height:clamp(200px, 55vh, 80vh);
+    position:relative;
+  }
+  .scrollable .pomodore .pomodoreBar {
+    position:absolute;
+  }
+  .scrollable .pomodore .pomodoreBar circle {
+    transition:.3s;
+  }
+  
+  @media screen and (min-width: 1000px) and (max-width: 1564px) {
+    .scrollable h1 {
+      font-size:clamp(50px, 70px, 150px);
+    }
+    /* .scrollable .pomodore {
+   
+      width:clamp(200px,50vw, 100vw);
+    
+      height:clamp(200px, 50vh, 100vh);
+     
+    } */
+  }
+  @media screen and (min-width: 200px) and (max-width: 999px) {
+    .scrollable h1 {
+      font-size:clamp(10px, 50px, 150px);
+    }
+    .scrollable .pomodore {
+   
+      width:clamp(40vw,60vw, 100vw);
+    
+      height:clamp(200px, 40vh, 100vh);
+     
+    }
+  }
+  
