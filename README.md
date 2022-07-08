@@ -1,5 +1,7 @@
 # Pomodoro-react
 
+## Artefacts on progress bar is not appearing on live version, this is an issue due to the recording software:
+
 ![pomodore_controls](https://user-images.githubusercontent.com/84904766/177977965-64d51dc8-610b-4e76-b6ed-acc2ba7789ae.gif)
 
 # Instrucciones de Uso React App: 
@@ -83,7 +85,7 @@ It's a pomodore version with theme changing made to practice React!
 
 
 ### Screenshots: 
-Working * artefacts on progress bar is not appearing on live version, this is an issue due to the recording software * 
+Theme changes 
 
 
 ![pomodore_theme](https://user-images.githubusercontent.com/84904766/177978375-0f8efc65-9dfa-4f67-b756-e3f7f76952a1.gif)
